@@ -77,7 +77,7 @@
             }
             @media (max-width:1286px){
                 #about{
-                    height: 240px;
+                    height: 240px; 
                 }
             }
             @media (max-width:1102px) {
@@ -85,11 +85,6 @@
                     font-size:14px;
                 }
                 
-            }
-            @media (max-width:546px){
-                #about-p{
-                    background: #000;
-                }
             }
             #menu h1{
                 display: flex;
