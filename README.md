@@ -56,7 +56,6 @@
                 align-items: center;
                 justify-content: center;
             }
-
             #about{
                 color: black;
                 background:#ff8a6f;
@@ -84,7 +83,6 @@
                 #about-p{
                     font-size:14px;
                 }
-                
             }
             #menu h1{
                 display: flex;
@@ -131,7 +129,6 @@
             #menu table th{
                 font-size:20px;
             }
-
             #contact-container{
                 display: flex;
                 align-items: center;
@@ -204,8 +201,6 @@
             footer:hover{
                 transform: scale(1.02);
             }
-
-            
         </style>
     </head>
     <body>
@@ -213,7 +208,6 @@
             <div id="home">
                 <h1>Delcious Bites</h1>
             </div>
-
             <div id="navigation-links">
                 <div class="links">
                     <a href="#home">Home</a>
@@ -223,12 +217,10 @@
                 </div>
             </div>
         </header>
-
         <main>
             <div id="welcome-section">
                 <h1>Welcome To Our Restaurant</h1>
             </div>
-
             <div id="about">
                 <div id="about-p">
                     Welcome to Our Restaurant , where delicious flavors meet a warm and inviting atmosphere. We take
@@ -243,10 +235,8 @@
                     Come and experience great food, a cozy ambiance, and top-notch hospitality—we can’t wait to serve you! 🍽️✨
                 </div>
             </div>
-
             <div id="menu">
                 <h1>Restaurant Menu</h1>
-
             <table>
                 <tr>
                     <th>Dishes</th>
@@ -261,7 +251,6 @@
                     <td><img src="imagess/PIZZA.jpg" alt=""></td>
                 </tr>
                 <tr>
-
                     <td>Grilled Chicken</td>
                     <td>Served with fresh vegetables</td>
                     <td>$15.99</td>
@@ -281,27 +270,21 @@
                 </tr>
             </table>
             </div>
-            
             <div id="contact-container">
-            
             <div id="contact">
                 <h1>Contact Us</h1>
                 <form action="">
                     <label for="name">Name</label>
                     <input type="text" name="name" required>
-
                     <label for="email">Email</label>
                     <input type="email" name="email" required>
-
                     <label for="message">Message</label>
                     <textarea name="message" id="message"></textarea>
-
                     <button type="submit">Submit</button>
                 </form> 
             </div>
         </div>
         </main>
-
         <footer>
             <p>© 2025 Syed Sahil. All rights reserved.</p>
         </footer>
